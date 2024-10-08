@@ -3,7 +3,7 @@ import json
 from datetime import datetime
 
 def load_params():
-    with open('params.json', 'r') as f:
+    with open('search_params.json', 'r') as f:
         return json.load(f)
 
 def check_flats(move_in_date):
