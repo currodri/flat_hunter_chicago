@@ -47,7 +47,7 @@ def update_readme(available_flats):
                 f.write(f"- **Square Feet:** {flat['sqft']} sqft\n")
                 f.write(f"- **Rent:** ${flat['rent_min']} - ${flat['rent_max']}\n")
                 f.write(f"- **Available From:** {flat['available']}\n")
-                f.write(f"- Apply Here\n\n")
+                f.write(f"- Apply Here:** {flat['apply_url']}\n\n")
         else:
             f.write("No flats available at the moment.\n")
 
