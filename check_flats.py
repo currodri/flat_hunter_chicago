@@ -1,6 +1,7 @@
 import requests
 import json
 from datetime import datetime
+import pytz
 
 def load_params():
     with open('search_params.json', 'r') as f:
@@ -36,18 +37,24 @@ def check_flats(move_in_date,rent_min):
     return available_flats
 
 def update_readme(available_flats):
-    now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    # Define the target time zone
+    target_timezone = pytz.timezone('America/Chicago')
+    
+    # Get the current time in UTC and convert to the target time zone
+    now_utc = datetime.now(pytz.utc)
+    now_target = now_utc.astimezone(target_timezone)
+    now = now_target.strftime("%Y-%m-%d %H:%M:%S")
     with open('README.md', 'w') as f:
         f.write("# Available Flats\n\n")
         f.write(f"**Last updated:** {now}\n\n")
         if available_flats:
-            f.write("## Flats Available:\n")
+            f.write("## [1130 S Michigan Ave](https://1130smichigan.com/wp-json/floorplans/v1/available-units):\n")
             for flat in available_flats:
                 f.write(f"### {flat['floor_plan_name']} (Unit {flat['unit_number']})\n")
                 f.write(f"- **Square Feet:** {flat['sqft']} sqft\n")
                 f.write(f"- **Rent:** ${flat['rent_min']} - ${flat['rent_max']}\n")
                 f.write(f"- **Available From:** {flat['available']}\n")
-                f.write(f"- [Apply Here]({flat['apply_url']})")
+                f.write(f"- [Apply Here]({flat['apply_url']})\n\n")
         else:
             f.write("No flats available at the moment.\n")
 

@@ -2,7 +2,7 @@ name: Check Flats Availability
 
 on:
   schedule:
-    - cron: '0 12 * * *'  # Runs every day at 12 PM
+    - cron: '0 17 * * *'  # Runs every day at 5 PM UTC (12 PM Chicago time)
   workflow_dispatch:  # Allows manual triggering
 
 permissions:
