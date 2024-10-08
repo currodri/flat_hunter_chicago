@@ -6,7 +6,7 @@ def load_params():
     with open('search_params.json', 'r') as f:
         return json.load(f)
 
-def check_flats(move_in_date):
+def check_flats(move_in_date,rent_min):
     api_url = "https://1130smichigan.com/wp-json/floorplans/v1/available-units"
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3'
@@ -19,10 +19,11 @@ def check_flats(move_in_date):
     data = response.json()
     available_flats = []
 
-    for floor_plan in data['floor_plans']:
-        for unit in floor_plan['available_units']:
-            if unit['available'] >= move_in_date:
-                available_flats.append({
+    for floor_plan in data['posts']:
+        if '1BR/1BA' in floor_plan['name']:
+            for unit in floor_plan['available_units']:
+                if unit['available'] >= move_in_date and int(unit['rent_min']) <= rent_min:
+                    available_flats.append({
                     'floor_plan_name': unit['floor_plan_name'],
                     'unit_number': unit['unit_number'],
                     'sqft': unit['sqft'],
@@ -52,7 +53,8 @@ def update_readme(available_flats):
 
 if __name__ == "__main__":
     params = load_params()
-    move_in_date = params.get('move_in_date', '2024-10-15')
+    move_in_date = params.get('move_in_date', '01/01/2025')
+    rent_min = params.get('rent_min', '2000')
     available_flats = check_flats(move_in_date)
     update_readme(available_flats)
     print("README.md updated with available flats.")
