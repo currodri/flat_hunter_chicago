@@ -55,6 +55,6 @@ if __name__ == "__main__":
     params = load_params()
     move_in_date = params.get('move_in_date', '01/01/2025')
     rent_min = params.get('rent_min', '2000')
-    available_flats = check_flats(move_in_date)
+    available_flats = check_flats(move_in_date,rent_min)
     update_readme(available_flats)
     print("README.md updated with available flats.")
