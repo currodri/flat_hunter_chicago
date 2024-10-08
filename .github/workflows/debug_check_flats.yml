@@ -1,9 +1,12 @@
-name: Debug Check Flats Availability
+name: Check Flats Availability
 
 on:
   schedule:
-    - cron: '* * * * *'  # Runs every minute
+    - cron: '0 12 * * *'  # Runs every day at 12 PM
   workflow_dispatch:  # Allows manual triggering
+
+permissions:
+  contents: write  # Grant write access to the repository contents
 
 jobs:
   check_flats:
