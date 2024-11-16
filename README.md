@@ -1,11 +1,11 @@
 # Available Flats
 
-**Last updated:** 2024-11-16 13:22:42
+**Last updated:** 2024-11-16 13:33:27
 
 ## [1130 S Michigan Ave](https://1130smichigan.com/wp-json/floorplans/v1/available-units):
 ### Tier 7/13 (1BR/1BA) (Unit 002913)
 - **Square Feet:** 722 sqft
-- **Rent:** $1900 - $4616
+- **Rent:** $1804 - $4406
 - **Available From:** 20240903
 - [Apply Here](https://1130smichigan.securecafe.com/onlineleasing/eleven-thirty/oleapplication.aspx?stepname=RentalOptions&myOlePropertyId=638530&FloorPlanID=2321071&UnitID=11312645&header=1)
 
