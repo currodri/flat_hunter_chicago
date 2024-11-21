@@ -1,11 +1,11 @@
 # Available Flats
 
-**Last updated:** 2024-11-21 08:40:22
+**Last updated:** 2024-11-21 08:50:00
 
 ## [1130 S Michigan Ave](https://1130smichigan.com/wp-json/floorplans/v1/available-units):
 ### Tier 7/13 (1BR/1BA) (Unit 003007)
 - **Square Feet:** 722 sqft
-- **Rent:** $2091 - $4941
+- **Rent:** $2089 - $4941
 - **Available From:** 09/26/2024
 - [Apply Here](https://1130smichigan.securecafe.com/onlineleasing/eleven-thirty/oleapplication.aspx?stepname=RentalOptions&myOlePropertyId=638530&FloorPlanID=2321071&UnitID=11312725&header=1)
 
@@ -35,33 +35,27 @@
 
 ### Tier 9/15 (1BR/1BA) (Unit 000615)
 - **Square Feet:** 734 sqft
-- **Rent:** $2193 - $5275
+- **Rent:** $2191 - $5274
 - **Available From:** 09/19/2024
 - [Apply Here](https://1130smichigan.securecafe.com/onlineleasing/eleven-thirty/oleapplication.aspx?stepname=RentalOptions&myOlePropertyId=638530&FloorPlanID=2321072&UnitID=11312771&header=1)
 
 ### Tier 14 (1BR/1BA) (Unit 002614)
 - **Square Feet:** 760 sqft
-- **Rent:** $2060 - $4820
+- **Rent:** $2058 - $4819
 - **Available From:** 10/06/2024
 - [Apply Here](https://1130smichigan.securecafe.com/onlineleasing/eleven-thirty/oleapplication.aspx?stepname=RentalOptions&myOlePropertyId=638530&FloorPlanID=3127225&UnitID=11312928&header=1)
 
 ### Tier 14 (1BR/1BA) (Unit 002914)
 - **Square Feet:** 760 sqft
-- **Rent:** $2101 - $4865
+- **Rent:** $2145 - $4865
 - **Available From:** 20241129
 - [Apply Here](https://1130smichigan.securecafe.com/onlineleasing/eleven-thirty/oleapplication.aspx?stepname=RentalOptions&myOlePropertyId=638530&FloorPlanID=3127225&UnitID=11312854&header=1)
 
 ### Tier 08 (1BR/1BA) (Unit 001808)
 - **Square Feet:** 797 sqft
-- **Rent:** $2060 - $4757
+- **Rent:** $2104 - $4757
 - **Available From:** 12/13/2024
 - [Apply Here](https://1130smichigan.securecafe.com/onlineleasing/eleven-thirty/oleapplication.aspx?stepname=RentalOptions&myOlePropertyId=638530&FloorPlanID=2321074&UnitID=11312891&header=1)
-
-### Tier 08 (1BR/1BA) (Unit 004108)
-- **Square Feet:** 797 sqft
-- **Rent:** $2158 - $4916
-- **Available From:** 12/23/2024
-- [Apply Here](https://1130smichigan.securecafe.com/onlineleasing/eleven-thirty/oleapplication.aspx?stepname=RentalOptions&myOlePropertyId=638530&FloorPlanID=2321074&UnitID=11312871&header=1)
 
 ### Tier 08 (1BR/1BA) (Unit 001908)
 - **Square Feet:** 797 sqft
@@ -71,13 +65,13 @@
 
 ### Tier 08 (1BR/1BA) (Unit 002408)
 - **Square Feet:** 797 sqft
-- **Rent:** $2056 - $4821
+- **Rent:** $2126 - $4900
 - **Available From:** 20250127
 - [Apply Here](https://1130smichigan.securecafe.com/onlineleasing/eleven-thirty/oleapplication.aspx?stepname=RentalOptions&myOlePropertyId=638530&FloorPlanID=2321074&UnitID=11312950&header=1)
 
 ### Tier 5/11 (1BR/1BA) (Unit 003311)
 - **Square Feet:** 641 sqft
-- **Rent:** $2044 - $4689
+- **Rent:** $2109 - $4894
 - **Available From:** 20241015
 - [Apply Here](https://1130smichigan.securecafe.com/onlineleasing/eleven-thirty/oleapplication.aspx?stepname=RentalOptions&myOlePropertyId=638530&FloorPlanID=2321070&UnitID=11312636&header=1)
 
