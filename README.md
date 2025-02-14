@@ -1,6 +1,6 @@
 # Available Flats
 
-**Last updated:** 2025-02-14 05:57:27
+**Last updated:** 2025-02-14 06:39:15
 
 ## [1130 S Michigan Ave](https://1130smichigan.com/wp-json/floorplans/v1/available-units):
 ### Tier 9/15 (1BR/1BA) (Unit 000315)
